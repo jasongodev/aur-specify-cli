@@ -1,0 +1,30 @@
+pkgbase = specify-cli
+	pkgdesc = Bootstrap and manage Spec Kit projects
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/github/spec-kit
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	makedepends = python-wheel
+	depends = python
+	depends = python-click
+	depends = python-httpx
+	depends = python-json5
+	depends = python-packaging
+	depends = python-pathspec
+	depends = python-platformdirs
+	depends = python-pyyaml
+	depends = python-readchar
+	depends = python-rich
+	depends = python-truststore
+	depends = python-typer
+	options = !debug
+	source = git+https://github.com/github/spec-kit.git#tag=v0.4.0
+	b2sums = 576576b76de3874a6c486124959c4d59793e5e4227dbe12d86555f0bc3dc1a5b8c9ef00bc5365e2d24737bdd7002af9db604cc6a5ca30072e264ce674b6f7cb8
+
+pkgname = specify-cli
