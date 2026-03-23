@@ -2,7 +2,7 @@
 
 pkgname=specify-cli
 pkgver=0.4.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Bootstrap and manage Spec Kit projects'
 arch=('x86_64' 'aarch64')
 url='https://github.com/github/spec-kit'
@@ -27,6 +27,27 @@ makedepends=(
   'python-installer'
   'python-hatchling'
   'python-wheel'
+)
+optdepends=(
+  'claude-code: Supported Agent'
+  'codebuddy-cli: Supported Agent'
+  'cursor-ide: Supported Agent, IDE-based'
+  'gemini-cli: Supported Agent'
+  'git-credential-manager-bin: For issues with Git authentication'
+  'iflow-cli: Supported Agent'
+  'kilocode-cli-bin: Supported Agent, IDE-based'
+  'kimi-cli: Supported Agent'
+  'kiro-cli: Supported Agent'
+  'mistral-vibe: Supported Agent'
+  'openai-codex: Supported Agent'
+  'opencode: Supported Agent'
+  'qodercli-bin: Suported Agent'
+  'pi-coding-agent: Supported Agent'
+  'qwen-code: Supported Agent'
+  'shai: Supported Agent'
+  'tabnine: Supported Agent'
+  'visual-studio-code-bin: Visual Studio Code'
+  'windsurf: Supported Agent, IDE-based'
 )
 options=(!debug)
 source=("git+$url.git#tag=v$pkgver")
