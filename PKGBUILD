@@ -2,7 +2,7 @@
 
 pkgname=specify-cli
 pkgver=0.4.2
-pkgrel=1
+pkgrel=2
 pkgdesc='Bootstrap and manage Spec Kit projects'
 arch=('x86_64' 'aarch64')
 url='https://github.com/github/spec-kit'

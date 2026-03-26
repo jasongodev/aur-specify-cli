@@ -1,7 +1,7 @@
 pkgbase = specify-cli
 	pkgdesc = Bootstrap and manage Spec Kit projects
 	pkgver = 0.4.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/github/spec-kit
 	arch = x86_64
 	arch = aarch64
